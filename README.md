@@ -30,6 +30,6 @@ annotated tag. Development continues on `main`.
 | repository | freeze |
 |------------|--------|
 | [`p4rakernel`](https://github.com/umpolungfish/p4rakernel) | commit `eea2c0c`, branch `crystalline/manuscripts3-2026-07-07`, tag `crystalline-manuscripts3-v1` (`p4ramill` Lean library) |
-| [`mOMonadOS`](https://github.com/umpolungfish/mOMonadOS) | commit `16da4a9`, same branch name and tag (`src/witness_vessel.rs`, `src/dialect_expansion.rs`; catalog on `main` as `IG_catalog.json`) |
+| [`mOMonadOS`](https://github.com/umpolungfish/mOMonadOS) | commit `17bce34`, same branch name and tag (`src/witness_vessel.rs`, `src/dialect_expansion.rs`; catalog on `main` as `IG_catalog.json`) |
 
 `main` continues in each repository.
