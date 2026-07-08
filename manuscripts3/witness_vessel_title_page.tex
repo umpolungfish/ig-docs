@@ -1,0 +1,93 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[top=1.25in, bottom=1.25in, left=1.25in, right=1.25in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{parskip}
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+
+\begin{center}
+
+\vspace*{1.5em}
+
+{\LARGE\bfseries The Witness Vessel:\\[0.4em]
+Lossless Transport on the Dual-Link SIC-POVM}
+
+\vspace{1.5em}
+
+{\large C.\ Lando Mills}
+
+\vspace{0.6em}
+
+{\normalsize Independent Researcher, Trabuco Canyon, CA 92679, USA}
+
+\vspace{0.4em}
+
+{\normalsize Correspondence: \href{mailto:c.landonmills@gmail.com}{c.landonmills@gmail.com}}
+
+\vspace{0.2em}
+
+{\normalsize ORCID: \href{https://orcid.org/0000-0003-0003-0552}{0000-0003-0003-0552}}
+
+\end{center}
+
+\vspace{1.5em}
+
+\noindent\textbf{Declarations}
+
+\vspace{0.8em}
+
+\noindent\textbf{Availability of data and material}
+
+\noindent
+The proof half is the module \texttt{SIC\_D12\_WitnessVessel.lean} in the \texttt{p4ramill}
+library of \texttt{p4rakernel} (\url{https://github.com/umpolungfish/p4rakernel}).
+The runtime half is \texttt{src/witness\_vessel.rs} in \texttt{mOMonadOS}
+(\url{https://github.com/umpolungfish/momonad_os}).
+Canonical tuples come from \texttt{IG\_catalog.json}; the 88 dialects from
+\texttt{dialect\_expansion.rs}.
+Frozen review snapshots: \texttt{p4rakernel} at commit \texttt{eea2c0c},
+\texttt{mOMonadOS} at commit \texttt{16da4a9}, each on branch
+\texttt{crystalline/manuscripts3-2026-07-07} (tag \texttt{crystalline-manuscripts3-v1}).
+This manuscript trio is frozen in \texttt{ig-docs}
+(\url{https://github.com/umpolungfish/ig-docs}) on the same branch name and tag.
+
+\vspace{1em}
+
+\noindent\textbf{Competing interests}
+
+\noindent
+The author declares no competing interests.
+
+\vspace{1em}
+
+\noindent\textbf{Funding}
+
+\noindent
+This research received no external funding.
+
+\vspace{1em}
+
+\noindent\textbf{Authors' contributions}
+
+\noindent
+C.\ Lando Mills: conceptualization, formalization, software, investigation,
+validation, writing (original draft), writing (review and editing).
+
+\vspace{1em}
+
+\noindent\textbf{Acknowledgements}
+
+\noindent
+The author thanks Harry T.\ Larson for imparting the importance of catching rising
+problems and never letting them go.
+The lossy cargo reading of transport was such a problem: once the Grammar localized
+the malformation at the dimensionality--topology pair, the corrected protocol was
+pursued until the round-trip law held on both substrates.
+
+\end{document}
