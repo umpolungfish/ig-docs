@@ -1,0 +1,43 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Weyl--Heisenberg Operators and the SIC-POVM Definition}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Weyl--Heisenberg group in dimension $d$}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}The SIC-POVM condition}{5}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Arithmetic Geometry: the Stark Conjecture}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}The discriminant and base field}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}The mixed-signature Stark conjecture}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Constructing the fiducial from the Stark unit}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}The Galois--Zauner correspondence}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Honest gap markers}{7}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}The conditional existence theorem}{7}{subsection.3.6}%
+\contentsline {section}{\numberline {4}The Belnap Multilattice}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}The Belnap four-valued lattice $\mathbf {B}_4$}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}The $n$-qubit Belnap state and WH action}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}The multilattice axioms}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}The group-theoretic bifurcation}{9}{subsection.4.4}%
+\contentsline {section}{\numberline {5}The Main Equivalence}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Definitions}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}The equivalence is proved by \texttt {rfl}}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Corollary: closing one level closes all three}{10}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Hilbert's Twelfth Problem}{10}{section.6}%
+\contentsline {section}{\numberline {7}The $d=12$ Existence Theorem}{11}{section.7}%
+\contentsline {subsection}{\numberline {7.1}The base field is $\symbb {Q}(\sqrt {13})$}{11}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}The coordinate field}{11}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Explicit tower decomposition}{12}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}The coordinate field is a ramified $S$-unit double cover}{12}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}The existence ring}{13}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}The embedding and the audit}{14}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Scope}{14}{subsection.7.7}%
+\contentsline {section}{\numberline {8}The $d=2048$ Zauner Transport}{15}{section.8}%
+\contentsline {subsection}{\numberline {8.1}The problem space and the unconditional skeleton}{15}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}The transport map and its reduction}{15}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}The existence ring and the conditional reduction}{16}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}The character obstruction}{16}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}The dialetheic $B$-state}{16}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Proved unconditionally (0 sorries)}{17}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Axiomatized with known mathematical content}{17}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}Open}{18}{subsection.8.8}%
+\contentsline {section}{\numberline {9}Discussion}{18}{section.9}%
+\contentsline {section}{\numberline {10}Artifact statement}{19}{section.10}%
+\contentsline {section}{\numberline {11}Acknowledgements}{19}{section.11}%
+\contentsline {section}{\numberline {A}The $d=12$ fiducial primary coordinate}{19}{appendix.A}%

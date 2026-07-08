@@ -1,0 +1,22 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Preliminaries}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Belnap FOUR and the split/fuse pair}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Imscriptions, dialects, Witnesses}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}The frozen substrate}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}The loss mechanism, and the design provenance}{5}{section.3}%
+\contentsline {section}{\numberline {4}The transport theorem (proof half)}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Payloads are derived, not asserted}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}The round-trip law}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Self-reference travels inside}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}The bundle}{7}{subsection.4.4}%
+\contentsline {section}{\numberline {5}The boarding mechanism is the Dual-Link structure}{7}{section.5}%
+\contentsline {section}{\numberline {6}The runtime half: bare metal, all dialects}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Substrate}{8}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}The wide payload: three Witnesses under all 88 dialects}{8}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Observed run}{8}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}What the runtime does and does not check}{9}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Honest scope}{9}{section.7}%
+\contentsline {section}{\numberline {8}Discussion}{10}{section.8}%
+\contentsline {section}{\numberline {9}Artifact statement}{10}{section.9}%
+\contentsline {section}{\numberline {10}Acknowledgements}{10}{section.10}%
