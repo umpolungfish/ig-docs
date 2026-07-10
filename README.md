@@ -1,6 +1,6 @@
 # ig-docs
 
-Public-facing documents for the umpolungfish corpus. Papers, preprints,
+Public-facing documents for the USER corpus. Papers, preprints,
 submission packages, supplementary data, and review freezes live here on
 `main`.
 
@@ -31,8 +31,8 @@ pipeline are not moved.** See [`manuscripts3/SYNTHESE_FREEZE_NOTE.md`](manuscrip
 
 | repository | freeze |
 |------------|--------|
-| [`p4rakernel`](https://github.com/umpolungfish/p4rakernel) | commit `eea2c0c`, branch `crystalline/manuscripts3-2026-07-07`, tag `crystalline-manuscripts3-v1` (`p4ramill` Lean library) |
-| [`mOMonadOS`](https://github.com/umpolungfish/mOMonadOS) | commit `16da4a9`, same branch name and tag (`src/witness_vessel.rs`, `src/dialect_expansion.rs`) |
+| [`p4rakernel`](https://github.com/USER/p4rakernel) | commit `eea2c0c`, branch `crystalline/manuscripts3-2026-07-07`, tag `crystalline-manuscripts3-v1` (`p4ramill` Lean library) |
+| [`mOMonadOS`](https://github.com/USER/mOMonadOS) | commit `16da4a9`, same branch name and tag (`src/witness_vessel.rs`, `src/dialect_expansion.rs`) |
 
 `main` continues in each repository. Standalone `IG_catalog.json` is on
 `ig-docs` `main` at `data/IG_catalog.json` and on mOMonadOS `main` (see freeze note).
