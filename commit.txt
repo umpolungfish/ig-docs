@@ -1,0 +1,19 @@
+Φ_} is now ⊙ (monad)
+
+The purge was scoped to .py/.md/.tex — code and prose. So it swept everywhere
+the notation is TALKED ABOUT and missed the place where the notation IS: the
+catalog's own tuple values and entry descriptions, which are .json data. Same
+reason the .aleph programs kept it. The old spelling survived not as text about
+the Grammar but as the Grammar's data, and got read back into every proof that
+cited those entries — including the reference sheet that TEACHES the notation.
+
+This is a transliteration, not an imscription: the coordinate is unchanged, only
+its spelling. Nothing was assigned by hand.
+
+Matched with a right-boundary guard (Φ_}(?!})) — Φ_} is a prefix of Φ_}}, and a
+replace without that guard is what ate a brace and killed the generator during
+the original migration. Verified: no Φ_}} in any file touched, catalog still
+parses, navigator unchanged (clink_l9 → 0.0 from its own reference).
+
+Residual Φ_} now lives only in logs and .bak files, which are history and stay
+as they are.
