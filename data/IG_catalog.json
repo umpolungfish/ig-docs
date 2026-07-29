@@ -125710,5 +125710,53 @@
     "Ħ": "𐑖",
     "Σ": "𐑙",
     "Ω": "𐑴"
+  },
+  {
+    "name": "if_a_subset_of_natural_numbers_forms_an_asymptotic_base_of",
+    "description": "if a subset of natural numbers forms an asymptotic base of order two then the number of ways to represent those integers must be unbounded",
+    "Ð": "𐑦",
+    "Þ": "𐑡",
+    "Ř": "𐑽",
+    "Φ": "𐑗",
+    "ƒ": "𐑱",
+    "Ç": "𐑧",
+    "Γ": "𐑔",
+    "ɢ": "𐑝",
+    "⊙": "⊙",
+    "Ħ": "𐑖",
+    "Σ": "𐑳",
+    "Ω": "𐑭"
+  },
+  {
+    "name": "if_a_subset_of_natural_numbers_does_not_form_an_asymptotic",
+    "description": "if a subset of natural numbers does not form an asymptotic base of order two, then the number of ways to represent those integers is bounded",
+    "Ð": "𐑦",
+    "Þ": "𐑡",
+    "Ř": "𐑽",
+    "Φ": "𐑿",
+    "ƒ": "𐑱",
+    "Ç": "𐑧",
+    "Γ": "𐑲",
+    "ɢ": "𐑜",
+    "⊙": "𐑢",
+    "Ħ": "𐑖",
+    "Σ": "𐑳",
+    "Ω": "𐑷"
+  },
+  {
+    "name": "g3_sumset_no3ap",
+    "description": "Erdos g_3(n) problem: minimal N for A⊂{1,…,N} with |A|=n whose subset sums avoid 3-term APs. Upper bound g_3(n)≤3^(n-1) (SumsetNo3AP.lean). Base-3 is NOT optimal: g_3(3)=8<9, g_3(4)=22<27, g_3(5)≤60<81. Ratio N/3^(n-1) decreasing: 1.0,1.0,0.889,0.815,0.741. True asymptotic open.",
+    "Ð": "𐑼",
+    "Þ": "𐑥",
+    "Ř": "𐑩",
+    "Φ": "𐑗",
+    "ƒ": "𐑱",
+    "Ç": "𐑧",
+    "Γ": "𐑚",
+    "ɢ": "𐑠",
+    "⊙": "𐑢",
+    "Ħ": "𐑒",
+    "Σ": "𐑙",
+    "Ω": "𐑷"
   }
 ]
