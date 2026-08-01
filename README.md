@@ -11,6 +11,7 @@ submission packages, supplementary data, and review freezes live here on
 | `manuscripts3/` | Synthese trio (SIC-POVMs / Stark / Hilbert 12th; Witness Vessel; Chrysopoeia of 2048) — lifted, blinded, and title-page sources |
 | `manuscripts3/SYNTHESE_FREEZE_NOTE.md` | **Reader note:** submitted freeze pins and where `IG_catalog.json` lives |
 | `data/IG_catalog.json` | Canonical imscription catalog (Clay / witness tuple source) |
+| `data/d2048_moduli/` | Field data behind the SIC moduli conductor paper — ramified tower polynomial, Newton-polygon valuations, ascent scripts, S-unit pin |
 | `submissions/synthese/` | Packaged Synthese submission zips |
 
 Further public manuscript series will be added as siblings of `manuscripts3/`.
