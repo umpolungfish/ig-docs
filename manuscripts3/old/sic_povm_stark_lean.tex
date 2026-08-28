@@ -109,7 +109,7 @@ $2048$-dimensional commutative $\mathbb{Q}$-algebra with involution,
 machine-check the norm and all $143$ Weyl--Heisenberg overlap identities
 there by exact rational computation, and transfer them to $\mathbb{C}^{12}$
 along an explicit ring homomorphism. The resulting theorem
-$\texttt{crystal\_forces\_d12\_sic}$ is sorry-free and rests on no axiom
+$\texttt{crystal\_forces\_d12\_sic}$ is *sans* sorry and rests on no axiom
 beyond \Lean{}'s standard foundations and the \texttt{native\_decide}
 compiler trust; the existence axiom it replaces has been deleted from the
 development. To our knowledge this is the first machine-checked existence
@@ -153,7 +153,7 @@ The present work formalizes these connections in \Lean{} \cite{Lean4}
 \end{itemize}
 The structural picture is:
 \[
-\underbrace{\text{Belnap multilattice}}_{\text{sorry-free}}
+\underbrace{\text{Belnap multilattice}}_{\text{*sans* sorry}}
 \;\xrightarrow{\;\texttt{rfl}\;}
 \;[\,\texttt{HilbertEmbeddingExists} \;\leftrightarrow\; \texttt{ZaunerConjectureAtPow2}\,]
 \;\xrightarrow{\;\text{axiom: \texttt{stark\_equivalence}}\;}
@@ -348,7 +348,7 @@ The product-lattice WH orbit of $B^{\otimes n}$ has cardinality $2^n$:
 Amplitude displacements fix $B^{\otimes n}$ (since $\neg B = B$). The displaced
 states differ only in the phase word $p \in (\mathbb{Z}_2)^n$. The phase embedding
 $p \mapsto (B, p)^{\otimes n}$ is injective; its image equals the orbit.
-Hence $|\mathcal{O}| = |(\mathbb{Z}_2)^n| = 2^n$. \textbf{(Proved in \Lean{}, 0 sorries.)}
+Hence $|\mathcal{O}| = |(\mathbb{Z}_2)^n| = 2^n$. \textbf{(Proved in \Lean{}, *sans* sorry.)}
 \end{proof}
 \begin{corollary}[product\_lattice\_orbit\_is\_insufficient]
 \label{cor:gap}
@@ -389,7 +389,7 @@ For every $n \geq 1$, the Belnap multilattice satisfies:
   \item Distinctness: $g \neq h \implies g \cdot B^{\otimes n} \neq h \cdot B^{\otimes n}$
   \item Join-equiangularity: $\mathrm{frobInner}(B^{\otimes n}, g \cdot B^{\otimes n}) = 2n$ for all $g$
 \end{enumerate}
-These follow from \texttt{sic\_povm\_belnap\_unconditional} (0 sorries).
+These follow from \texttt{sic\_povm\_belnap\_unconditional} (*sans* sorry).
 \end{proposition}
 \subsection{The group-theoretic bifurcation}
 The equivalence between the Belnap multilattice and the Zauner conjecture
@@ -441,7 +441,7 @@ identification. Both definitions reduce to \texttt{SICPOVM\_Exists (2\^{}n)}:
 the Belnap multilattice embedding into $\mathbb{C}^{2^n}$ and the Zauner
 conjecture at that dimension are, definitionally, the same open problem.
 The force of the theorem is in what it identifies, not in the proof term.
-The Belnap multilattice (22 theorems, 0 sorries) proves \emph{all}
+The Belnap multilattice (22 theorems, *sans* sorry) proves \emph{all}
 SIC structural axioms in the Belnap metric unconditionally. The
 \texttt{rfl} says: the remaining gap --- can this structure be represented
 in $\mathbb{C}^{2^n}$ with the standard WH$(2^n)$ action? --- is exactly

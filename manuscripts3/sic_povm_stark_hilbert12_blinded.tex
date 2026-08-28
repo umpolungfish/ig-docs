@@ -122,7 +122,7 @@ with \texttt{native\_decide}, and transfer everything to $\mathbb{C}^{12}$ along
 The theorem \texttt{crystal\_forces\_d12\_sic} depends on no axiom beyond \Lean{}'s standard foundations
 and compiler trust. This is, to our knowledge, the first machine-checked SIC-POVM existence in any dimension.
 
-For the frontier dimension $d=2048=2^{11}$ the transport apparatus is formalized and sorry-free.  
+For the frontier dimension $d=2048=2^{11}$ the transport apparatus is formalized and *sans* sorry.  
 It includes a forward map $\varphi\colon B^{\oplus 11}\to\mathbb{C}^{2048}$, a reduction $\psi$ with
 $\psi\circ\varphi=\mathrm{id}$, a conditional reduction to Stark, and a non-real character obstruction
 that blocks the false branch.  
@@ -171,7 +171,7 @@ using five modules:
   \item \texttt{Imscribing.Millennium.SIC\_D12\_ExistenceRing} and \texttt{SIC\_D12\_Embedding}:
     the exact $d = 12$ fiducial ring, the \texttt{native\_decide} identity planks, and the embedding
     that proves \texttt{SICPOVM\_Exists 12} unconditionally (\S\ref{sec:d12}).
-  \item \texttt{Imscribing.Millennium.ZaunerTransportMap}: the complete, sorry-free $d = 2048$ transport:
+  \item \texttt{Imscribing.Millennium.ZaunerTransportMap}: the complete, *sans* sorry $d = 2048$ transport:
     the forward map $\varphi$, the reduction $\psi$ with $\psi\circ\varphi=\mathrm{id}$, the conditional
     existence via Stark, and the character obstruction with its dialetheic $B$-state (\S\ref{sec:d2048}).
 \end{itemize}
@@ -180,7 +180,7 @@ The structural chain is:
 
 \[
 \begin{array}{c}
-\underbracket{\text{Belnap multilattice}}_{\text{sorry-free}} \\[3pt]
+\underbracket{\text{Belnap multilattice}}_{\text{*sans* sorry}} \\[3pt]
 \big\downarrow\;{\scriptstyle \texttt{rfl}} \\[3pt]
 [\,\texttt{HilbertEmbeddingExists} \;\leftrightarrow\; \texttt{ZaunerConjectureAtPow2}\,] \\[3pt]
 \big\downarrow\;{\scriptstyle \text{axiom: \texttt{stark\_equivalence}}} \\[3pt]
@@ -200,7 +200,7 @@ For $d = 12$ the terminal existence node is already stronger than the chain that
 The two closed dimensions sit at opposite ends of the same construction.  
 At $d = 12$ the existence node itself is discharged.  
 At $d = 2048$ the existence node remains the open Zauner conjecture.  
-But everything around it is formalized and sorry-free: the transport $\varphi$, its reduction $\psi$,
+But everything around it is formalized and *sans* sorry: the transport $\varphi$, its reduction $\psi$,
 the conditional reduction to Stark, and the character obstruction that forces the representation to be
 genuinely complex.  
 We carry the open node and its obstruction together as a Belnap $B$-state, refusing to resolve them
@@ -434,7 +434,7 @@ Amplitude displacements fix $B^{\otimes n}$ (since $\neg B = B$).
 Displaced states differ only in the phase word $p \in (\mathbb{Z}_2)^n$.  
 The phase embedding $p \mapsto (B, p)^{\otimes n}$ is injective and its image equals the orbit, so
 $|\mathcal{O}| = |(\mathbb{Z}_2)^n| = 2^n$.  
-\textbf{Proved in \Lean{}, 0 sorries.}
+\textbf{Proved in \Lean{}, *sans* sorry.}
 \end{proof}
 
 \begin{corollary}[product\_lattice\_orbit\_is\_insufficient]
@@ -476,7 +476,7 @@ For every $n \geq 1$, the Belnap multilattice satisfies: the orbit size is $4^n$
 the meet-identity $\bigwedge_{x}\, \mathrm{wordMeet} = x$ holds; distinct group elements produce
 distinct states; and the join-equiangularity condition
 $\mathrm{frobInner}(B^{\otimes n}, g \cdot B^{\otimes n}) = 2n$ holds for all $g$.
-All of these follow from \texttt{sic\_povm\_belnap\_unconditional} (0 sorries).
+All of these follow from \texttt{sic\_povm\_belnap\_unconditional} (*sans* sorry).
 \end{proposition}
 
 \subsection{The group-theoretic bifurcation}
@@ -544,7 +544,7 @@ into $\mathbb{C}^{2^n}$ and the Zauner conjecture at that dimension are, definit
 open problem.
 
 The force of the theorem lies in what it identifies, not in the proof term.  
-The Belnap multilattice (22 theorems, 0 sorries) proves \emph{all} SIC structural axioms in the
+The Belnap multilattice (22 theorems, *sans* sorry) proves \emph{all} SIC structural axioms in the
 Belnap metric unconditionally.  
 The \texttt{rfl} says: the remaining gap (can this structure be represented in $\mathbb{C}^{2^n}$
 with the standard WH$(2^n)$ action?) is exactly what the Zauner conjecture asks.
@@ -617,7 +617,7 @@ $\mathbb{Q}$, and prove in \Lean{}, with no hypothesis, that it is a SIC-POVM:
 \[
 \texttt{theorem crystal\_forces\_d12\_sic : SICPOVM\_Exists 12}
 \]
-is a sorry-free theorem of the development, resting on no axiom beyond \Lean{}'s standard foundations
+is a *sans* sorry theorem of the development, resting on no axiom beyond \Lean{}'s standard foundations
 and the \texttt{native\_decide} compiler trust (\S\ref{subsec:audit}).  
 In earlier drafts this section was titled a \emph{witness}; the word is now too weak.  
 The existence statement for $d=12$ does not rest on the mixed-signature Stark conjecture or on any
@@ -855,7 +855,7 @@ axiomatized in \S\ref{sec:gaps}.
 Dimension $d = 2048 = 2^{11}$ is the frontier case of the $d = 2^n$ family.  
 Unlike $d = 12$, its unconditional existence is not settled here: it remains the open Zauner conjecture,
 identified with the mixed-signature Stark conjecture for $F_{2048}$ by Theorem~\ref{thm:main-equiv}.  
-What is settled, sorry-free in \texttt{ZaunerTransportMap.lean}, is the entire transport apparatus that
+What is settled, *sans* sorry in \texttt{ZaunerTransportMap.lean}, is the entire transport apparatus that
 surrounds that one open node.  
 We prove the unconditional Belnap skeleton, the forward transport and its reduction, the conditional
 reduction to Stark, and a genuine obstruction to real representations; and we carry the open existence
@@ -1002,7 +1002,7 @@ At $d = 2048$ the existence node is open while its obstruction is proved, and th
 not a gap to be apologized for, but the correct four-valued type of an open problem whose skeleton
 and whose obstruction are both already theorems.
 
-\subsection{Proved unconditionally (0 sorries)}
+\subsection{Proved unconditionally (*sans* sorry)}
 
 The development proves the following results with zero sorries, without any appeal to the axioms that
 mark open mathematics.

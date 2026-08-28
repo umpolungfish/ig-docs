@@ -8,7 +8,7 @@ with open(path, 'r') as f:
 content = content.replace(r"\author{C.\ Lando\ Mills%}", r"\author{Lando$\otimes$⊙perator}")
 
 # Fix abstract underbrace doubling if exists
-content = content.replace(r"\underbrace{\text{Belnap multilattice}}_{\text{sorry-free}}_{\text{sorry-free}}", r"\underbrace{\text{Belnap multilattice}}_{\text{sorry-free}}")
+content = content.replace(r"\underbrace{\text{Belnap multilattice}}_{\text{*sans* sorry}}_{\text{*sans* sorry}}", r"\underbrace{\text{Belnap multilattice}}_{\text{*sans* sorry}}")
 
 # Fix margin runoff for Re(z12) and Im(z12)
 old_re = r"\text{Re}(\text{z}_{12}) &= 0.1062796056214234892401116553199052855065537600966583358463645722893226773031270658298768906205486390\dots"

@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {8.3}The existence ring and the conditional reduction}{16}{subsection.8.3}%
 \contentsline {subsection}{\numberline {8.4}The character obstruction}{16}{subsection.8.4}%
 \contentsline {subsection}{\numberline {8.5}The dialetheic $B$-state}{16}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Proved unconditionally (0 sorries)}{17}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.6}Proved unconditionally (*sans* sorry)}{17}{subsection.8.6}%
 \contentsline {subsection}{\numberline {8.7}Axiomatized with known mathematical content}{17}{subsection.8.7}%
 \contentsline {subsection}{\numberline {8.8}Open}{18}{subsection.8.8}%
 \contentsline {section}{\numberline {9}Discussion}{18}{section.9}%
